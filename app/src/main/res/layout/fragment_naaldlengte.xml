@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="boeren.com.boeren.app.bmedical.boeren.fragments.NaaldlengteFragment">
+
+    <boeren.com.appsuline.app.bmedical.appsuline.font.DinProTextView
+        android:id="@+id/title_naaldlenghte"
+        android:text="@string/Title_Naaldlengte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="@color/title_color"
+        style="@style/TextViewAppearance.Display1"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_naaldlenghte"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <boeren.com.appsuline.app.bmedical.appsuline.font.DinProTextView
+        android:id="@+id/textview"
+        android:text="@string/Text_Naaldlengte"
+        style="@style/TextViewAppearance.Body1"
+        />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imview_hypo_prikkelen"
+            android:src="@drawable/naaldtabel"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            />
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

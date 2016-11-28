@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_delete_text">verwijderen</string>
+    
+    <string name="load_more">Laat nog een maand zien</string>
+    <string name="detail_title_placeholder">Cool Title Of Some Movie</string>
+    <string name="dialog_text_website">Wilt u boerenmedical.com in uw browser openen?</string>
+    <string name="dialog_text_webshop">Wilt u shop.boerenmedical.com in uw browser openen?</string>
+    <string name="dialog_title_website">Website</string>
+    <string name="title_notice_noreminders">Nog geen herinneringen</string>
+    <string name="dialog_title_webshop">Webshop</string>
+    <string name="dialog_title_meter">Verbonden meters</string>
+    <string name="dialog_text_meterdelete">Weet u zeker dat u deze meter wil ontkoppelen?</string>
+    <string name="title_meteradd">Zoek naar BLE meters</string>
+    <string name="title_meteravilable">Beschikbaar BLE meters</string>
+    <string name="dialog_save_bloedglucosemeten">Bewaar</string>
+    <string name="websiteurl">http://www.boerenmedical.com</string>
+    <string name="webshopurl">http://shop.boerenmedical.com</string>
+    <string name="dialog_button_cancel_website">Annuleer</string>
+    <string name="dialog_button_open_website">Open</string>
+    <string name="app_name">Appsuline</string>
+    <string name="dairy">Dagboek</string>
+    <string name="reminder">Herinneringen</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="info">Informatie</string>
+    <string name="settings">Instellingen</string>
+    <string name="pdf">PDF</string>
+    <string name="van">Van</string>
+    <string name="totenmet">Tot en Met</string>
+    <string name="dagen">Dagen</string>
+    <string name="alledagen">Alle dagen</string>
+    <string name="alleenuitelichte">Alleen uitgelichte dagen</string>
+    <string name="bekijkpdf">Bekijk PDF</string>
+    <string name="gemiddeldebloedwaarde">Laatst gemeten bloedglucosewaarde</string>
+    <string name="totalkoolhydraten">Totaal aantal koolhydraten</string>
+    <string name="totaleenhedeninsuline">Totaal aantal eenheden insuline</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="Algemene">Algemene Informatie</string>
+    <string name="Diabetes">Diabetes</string>
+    <string name="Injectielocaties">Injectielocaties</string>
+    <string name="Injectietechniek">Injectietechniek</string>
+    <string name="Naaldlengte">Naaldlengte</string>
+    <string name="Insulinepomp">Insulinepomp</string>
+    <string name="Prikken">Prikken</string>
+    <string name="Wisselen">Wisselen</string>
+    <string name="Hypo">Hypo</string>
+    <string name="Hyper">Hyper</string>
+    <string name="Instellingen">Instellingen</string>
+    <string name="Persoonlijkegegevens">Persoonlijke gegevens</string>
+    <string name="Streefwaardes">Streefwaardes</string>
+    <string name="Help">Help</string>
+    <string name="Handleiding">Handleiding</string>
+    <string name="Meldingsstijlaanpassen">Meldingsstijl aanpassen</string>
+    <string name="Bluetoothmeterkoppelen">Bluetoothmeter koppelen</string>
+    <string name="BorenMedical">Boeren Medical</string>
+    <string name="OverBoerenMedical">Over Boeren Medical</string>
+    <string name="Website">Website</string>
+    <string name="Webshop">Webshop</string>
+    <string name="Feedback">Feedback</string>
+    <string name="Disclaimer">Disclaimer</string>
+    <string name="Title_InfoDiabetes">Diabetes</string>
+    <string name="Title_Injectielocaties">Injectielocaties</string>
+    <string name="Title_Injectietechniek">Injectietechniek</string>
+    <string name="Title_Naaldlengte">Naaldlengte</string>
+    <string name="Title_Insulinepomp">Insulinepomp</string>
+    <string name="Title_Prikken">Prikken</string>
+    <string name="Title_Wisselen">Wisselen</string>
+    <string name="Title_Hypo">Hypo</string>
+    <string name="Title_v4">DM Mini V4  Koppelen</string>
+    <string name="Title_Hyper">Hyper</string>
+    <string name="Title_naam">Naam</string>
+    <string name="Title_geslacht">Geslacht</string>
+    <string name="Title_dob">Geboortedatum</string>
+    <string name="Title_naamverpleegkundig">Naam Verpleegkundig</string>
+    <string name="textinput_naam">Uw naam</string>
+    <string name="textinput_man">Man</string>
+    <string name="textinput_vrouw">Vrouw</string>
+    <string name="active_user">Actieve gebruiker</string>
+    <string name="textinput_leeftijd">Uw leeftijd</string>
+    <string name="title_naamverpleegkundige">Naam Verpleegkundige</string>
+    <string name="title_emailverpleegkundige">E-mailadres Verpleegkundige</string>
+    <string name="title_pomp_spuit">Spuit/Pomp</string>
+    <string name="text_pomp">Pomp</string>
+    <string name="text_spuit">Spuit</string>
+    <string name="nobluetoothfound">Geen bloedglucosemeter gevonden</string>
+    <string name="hypo_title_prikkelingen">PRIKKELINGEN IN TONG OF LIPPEN</string>
+    <string name="hypo_title_transpireren">TRANSPIREREN</string>
+    <string name="hypo_title_hoofdpijn">HOOFDPIJN</string>
+    <string name="hypo_title_slechtzien">SLECHT ZIEN</string>
+    <string name="hypo_title_bleekheid">BLEEKHEID</string>
+    <string name="hypo_title_verwardheid">VERWARDHEID EN CONCENTRATIEVERLIES</string>
+    <string name="hypo_title_wisselendestem">WISSELENDE STEMMINGEN</string>
+    <string name="hypo_title_plotselinge">PLOTSELINGE HONGER</string>
+    <string name="hypo_title_moeilijk">MOEILIJK ONTWAKEN</string>
+    <string name="hypo_title_plotselingemoeheid">PLOTSELINGE MOEHEID</string>
+    <string name="hypo_title_hartkloppingen">HARTKLOPPINGEN</string>
+    <string name="hypo_title_beven">BEVEN</string>
+    <string name="hypo_title_duizeligheid">DUIZELIGHEID</string>
+    <string name="hyper_title_veelplassen">VEEL PLASSEN</string>
+    <string name="hyper_title_verstopping">VERSTOPPING</string>
+    <string name="hyper_title_jeukschaamstreek">JEUK IN DE SCHAAMSTREEK</string>
+    <string name="hyper_title_spierzwakte">SPIERZWAKTE</string>
+    <string name="hyper_title_gevoeliginfecties">GEVOELIG VOOR INFECTIES</string>
+    <string name="hyper_title_veelhonger">VEEL HONGER</string>
+    <string name="hyper_title_veeldorst">VEEL DORST</string>
+    <string name="hyper_title_drogemond">DROGE MOND</string>
+    <string name="hyper_title_prikkelingen_tintelingen">PRIKKELINGEN EN TINTELINGEN</string>
+    <string name="hyper_title_vermagering">VERMAGERING</string>
+    <string name="title_meldingsstijl">Meldingsstijl aanpassen</string>
+    <string name="title_overboerenmedical">Over Boeren Medical</string>
+    <string name="title_overboerenmedical_webshop">WEBSHOP:</string>
+    <string name="title_overboerenmedical_diabetes">DIABETES&amp;:</string>
+    <string name="title_overboerenmedical_diabetes_service">DIABETES SERVICE SPREEKUUR:</string>
+    <string name="title_feedback">Feedback</string>
+    <string name="title_disclaimer">Disclaimer</string>
+    <string name="title_InsulineSchema">Insuline Schema</string>
+    <string name="title_bluetoothmeter_koppelen">Bluetoothmeter koppelen</string>
+    <string name="title_bluetoothmeter_koppelen_eerste">EERSTE KEER GEBRUIK</string>
+    <string name="title_bluetoothmeter_koppelen_appinstellen">APP INSTELLEN</string>
+    <string name="title_bluetoothmeter_koppelen_geschikte">GESCHIKTE APPARATEN</string>
+    <string name="title_streefwaardes">Streefwaardes</string>
+    <string name="title_streefwaardes_warning">Let op: Boeren Medical geeft geen medische adviezen. Vul onderstaande streefwaardes alleen in overleg met uw behandelaar in.</string>
+    <string name="title_streefwaardes_KH_min">kH, Minimaal</string>
+    <string name="title_streefwaardes_KH_max">kH, Maximaal</string>
+    <string name="title_streefwaardes_Insuline_min">Insuline, Minimaal</string>
+    <string name="title_streefwaardes_Insuline_max">Insuline, Maximaal</string>
+    <string name="title_streefwaardes_Bloedglucose_min">Bloedglucose, Minimaal</string>
+    <string name="title_streefwaardes_Bloedglucose_max">Bloedglucose, Maximaal</string>
+    <string name="inputhint_streefwaardes">0</string>
+    <string name="title_help">Help</string>
+    <string name="title_kopen">Kopen</string>
+    <string name="textbluetooth_help">Hoe verbind ik met bluetooth?</string>
+    <string name="textbluetooth_kopen">Boeren Medical Webshop</string>
+    <string name="title_popup">Herinnering toevoegen</string>
+    <string name="metingen">Metingen</string>
+    <string name="bloodsugarmeter">BM Diamond Mini</string>
+    <string name="bloedglucosemeten">Bloedglucose meten</string>
+    <string name="insulinespuiten">Insuline Spuiten</string>
+    <string name="tussendoortje">Tussendoortje</string>
+    <string name="productbestllen">Producten bestellen</string>
+    <string name="datum">Datum</string>
+    <string name="datumcaps">DATUM</string>
+    <string name="tijdstip">Tijdstip</string>
+    <string name="naamproduct">Naam Product</string>
+    <string name="steldedatum">Stel de datum voor uw bestelling in</string>
+    <string name="optioneel">Optioneel</string>
+    <string name="nieuweinvoer">Nieuwe invoer</string>
+    <string name="opmerkingen">Opmerkingen</string>
+    <string name="typemaaltijd">Type Maaltijd</string>
+    <string name="maaltijd">Maaltijd</string>
+    <!--<string name="koolhydraten">Koolhydraten</string>-->
+    <string name="koolhydraten">Of vul hieronder de koolhydraten in</string>
+    <string name="koolhydraten_hint">Geef het aantal Kh in</string>
+    <string name="bloedwaarde">Bloedwaarde</string>
+    <string name="bloedwaarde_hint">Tik om in te vullen.</string>
+    <string name="insuline">Insuline</string>
+    <string name="insuline_hint">Tik om in te vullen.</string>
+    <string name="duration">Tijdsduur</string>
+    <string name="activity">Activiteit</string>
+    <string name="acitivity_hint">Voer hier uw activiteit in.</string>
+    <string name="users">Gebruikers</string>
+    <string name="profilepicture">Profiel foto</string>
+    <string name="selectphoto">Selecteer foto</string>
+    <string name="changephoto">Wijzig foto</string>
+    <string name="pdf_min_calories">Minimum Kh/dag</string>
+    <string name="pdf_max_calories">Maximum Kh/dag</string>
+    <string name="pdf_min_insuline">Minimum Insuline/dag</string>
+    <string name="pdf_max_insuline">Maximum Insuline/dag</string>
+    <string name="carbohydrate_hint">Kh</string>
+    <string name="etBloodLevelAmount_hint">mmol/L</string>
+    <string name="etInsulin_hint">EH</string>
+    <string name="pdf_min_bloodsugarlevel">Minimum Bloedwaarde/meting</string>
+    <string name="pdf_max_bloodsugarlevel">Maximum Bloedwaarde/meting</string>
+    <string name="pdf_email_nurse">E-mail verpleegkundige</string>
+    <string name="save">Opslaan</string>
+    <string name="diarypopuptitle">Wat wilt u ingeven?</string>
+    <string name="longInsuline">Lang</string>
+    <string name="shortInsuline">Kort</string>
+    <string name="insulinetype">Type insuline</string>
+    <string name="title_carbohydrates">Koolhydraten tabel</string>
+    <string name="selectuser">Kies a.u.b een gebruiker om verder te gaan</string>
+    <string name="createuser">Creëer een gebruiker om verder te gaan</string>
+    <string name="fillname">U moet een naam ingeven</string>
+    <string name="filldetails">Vul uw streefwaardes in</string>
+    <string name="start_tutorial">Begin met de uitleg</string>
+    <string name="next">Volgende</string>
+    <string name="end_tutorial">Klaar om te beginnen!</string>
+    <string name="product">Producten</string>
+    <string name="buynow">Nu bestellen</string>
+    <string name="age">LEEFTIJD</string>
+    <string name="bmi">BMI</string>
+    <string name="injecttionteckniek">INJECTIETECHNIEK</string>
+    <string name="tablezonder">Zonder huidplooi, verticale injectie</string>
+    <string name="tablemet">Met huidplooi, schuine of verticale injectie</string>
+    <string name="eventsnacktitle">Neem een tussendoortje</string>
+    <string name="eventbloodleveltitle">Meet uw bloedglucose</string>
+    <string name="eventproductordertitle">Bestel uw hulpmiddelen</string>
+    <string name="eventinjectiontitle">Spuit uw insuline</string>
+    <string name="naaldlengteleeftijd">Kinderen onder 12 jaar,slanke jongeren of volwassenen met BMI &#60; 19</string>
+    <string name="naaldlengtebmi">BMI &#60; 19</string>
+    <string name="naaldlengte4mm">4 mm</string>
+    <string name="naaldlengte6mm">6 mm</string>
+    <string name="naaldlengte8mm">8 mm</string>
+    <string name="naaldlengte10mm">10 mm</string>
+    <string name="naaldlengte12mm">12 mm</string>
+    <string name="naaldlengte12to18">Jongeren 12-18 jaar</string>
+    <string name="naaldlengte19to25">19-25</string>
+    <string name="naaldlengtegreater25">&#62; 25</string>
+    <string name="adults">Volwassenen</string>
+    <string name="shortinsuline">Kortwerkende insuline</string>
+    <string name="shortinsulinecaps">KORTWERKENDE INSULINE</string>
+    <string name="longinsuline">Langwerkende insuline</string>
+    <string name="longinsulinecaps">LANGWERKENDE INSULINE</string>
+    <string name="InsulineSchemabloodsugar">Bloed Suiker</string>
+    <string name="bolus">Bolus Aantal Klikken</string>
+    <string name="beforebreakfast">Ontbijt</string>
+    <string name="beforelunch">Lunch</string>
+    <string name="beforedinner">Diner</string>
+    <string name="extraamountitle">Hoeveelheid Extra te Bolussen bij Extra KoolHydraten Inname</string>
+    <string name="extra">Extra</string>
+    <string name="durationcaps">Tijdstip</string>
+    <string name="amount">Aantal</string>
+    <string name="extrabenodigheden">Extra Benodigheden</string>
+    <string name="dateused">Datum in Gebruik</string>
+    <string name="temporaryinjection">Tijdelijk Over op Spuittherapie</string>
+    <string name="Insulineschema">Insuline Schema</string>
+    <string name="v4meter">Koppelen met de V4 Meter</string>
+    <string name="catheter">Catheter Verwisseld</string>
+    <string name="ampul">Insuline Ampul Verwisseld</string>
+    <string name="bijspuit">Bijspuitschema</string>
+    <string name="selectall">Alles selecteren</string>
+
+    <string name="insulin_long">(Lang)</string>
+    <string name="insulin_short">(Kort)</string>
+    <string-array name="diarytype_array">
+        <item>Maaltijd</item>
+        <item>Bloedwaarde</item>
+        <item>Insuline</item>
+        <item>Activiteit</item>
+    </string-array>
+
+    <string name="breakFast">Ontbijt</string>
+    <string name="lunch">Lunch</string>
+    <string name="snack">Tussendoortje</string>
+    <string name="dinner">Diner</string>
+    <string name="drink">Drinken</string>
+
+    <string-array name="mealtype_array">
+        <item>Ontbijt</item>
+        <item>Lunch</item>
+        <item>Diner</item>
+        <item>Tussendoortje</item>
+        <item>Diner</item>
+        <item>Drinken</item>
+    </string-array>
+    <string-array name="remindertype_array">
+        <item>Bloedglucose meten</item>
+        <item>Insuline spuiten</item>
+        <item>Tussendoortje</item>
+        <item>Producten bestellen</item>
+    </string-array>
+
+    <string name="Text_InfoDiabetes">Diabetes is een stofwisselingsziekte: de hoeveelheid suiker, oftewel glucose, in het bloed is te hoog. Daarom spreekt men ook wel van suikerziekte. De glucose is afkomstig uit de koolhydraten in onze voeding. Koolhydraten zitten bijvoorbeeld in brood, aardappelen en rijst en in zoete producten, zoals jam, limonade, koek en gebak. Wanneer de koolhydraten uit onze voeding in ons lichaam worden omgezet in glucose, vervoert het bloed dit naar alle cellen in het lichaam. Deze cellen gebruiken glucose als brandstof, waardoor we energie krijgen om te leven, te bewegen, te groeien, te spelen en te denken.\n\nHet bloed heeft een soort ‘sleutel’ nodig om de brandstof glucose in de cellen te krijgen: insuline. Insuline is een hormoon dat wordt gemaakt in de alvleesklier. Bij mensen met diabetes maakt de alvleesklier te weinig dan wel geen insuline meer aan, of reageert het lichaam niet goed op de insuline. En daar gaat het mis.\n\nEr ontstaan klachten door het teveel aan ‘werkloze’  glucose in het bloed en het gebrek aan glucose, oftewel brandstof, in de cellen. Voorbeelden van klachten zijn: veel moeten plassen, dorst, vermoeidheid en snelle gewichtsafname. Maar ook jeuk, slecht zicht en moeizaam genezende wondjes komen voor. Wanneer diabetes niet goed wordt behandeld kan dit zelfs leiden tot oogaandoeningen, hart- en vaatziekten, voetproblemen, dementie, zenuwschade, huidproblemen en nieraandoeningen.</string>
+    <string name="Text_Injectielocaties">Er zijn verschillende injectielocaties op het lichaam.\n\n<b>Buik:</b>\nHet spuiten van insuline in de buik zorgt voor een snelle opname. U kunt bijna uw gehele buik gebruiken met uitzondering van de 2 centimeter rondom uw navel. Binnen deze 2 centimeter kan het namelijk erg pijnlijk zijn om te spuiten.\n\n<b>Billen:</b>\nHet spuiten van insuline in de billen zorgt voor een relatief langzame opname. Spuit altijd in het bovenste en buitenste gedeelte van uw billen. U kunt deze locatie bepalen door uw bil door middel van een kruis denkbeeldig in vieren te delen.\n\n<b>Dijbenen:</b>\nOok het spuiten van insuline in de dijbenen zorgt voor een relatief langzame opname. U dient hierbij altijd in het bovenste gedeelte van uw dijbeen te spuiten aan de buitenzijde. Dit betreft de ruimte die ongeveer een hand verwijderd is van uw liezen en knieën.\n\n<b>Arm:</b>\nHet spuiten van insuline in de billen zorgt voor een gemiddelde opname. Toch kunt u uw armen beter niet gebruiken in verband met het kleine opnameoppervlak. Hierdoor heeft u weinig mogelijkheden om van injectieplaats te wisselen. Mocht u er toch voor kiezen om in uw armen te injecteren, doe dit dan aan de zijkant van uw arm met een korte naaldlengte. \n\n</string>
+    <string name="Text_Injectietechniek">Er zijn diverse injectietechnieken mogelijk. \n\n <b>Injectie met een huidplooi in een hoek van 90o.</b>\n
+Bij het injecteren vormt u een huidplooi met duim en wijsvinger (trek hierbij de spier niet mee omhoog). \n\n <b>Injectie met een huidplooi in een hoek van 45o.</b>\n
+Een schuine injectietechniek wordt alleen aangeraden als er zeer weinig onderhuids vetweefsel is. Als u schuin injecteert, moet de hoek ten minste 45o zijn. Als je in een kleinere hoek, dus vlakker, injecteert, kan de insuline slecht de lederhuid bereiken. Het kan dan zijn dat een striem of blauwe plek ontstaat op de injectieplaats.\n\n <b>Injectie zonder huidplooi in een hoek van 45o of 90o.</b>\n
+Belangrijk hierbij is dat de naald kort moet zijn, 6 tot 8 mm of 10 mm.\n\n</string>
+    <string name="Text_Naaldlengte">Overleg ook altijd met uw diabetesverpleegkundige/praktijkondersteuner/arts welke naaldlengte voor u het meest geschikt is. Onderstaand overzicht is slechts een hulpmiddel.</string>
+    <string name="Text_Insulinepomp">De pomp kan gedragen worden op iedere plaats waar behandeling met een insulinepen mogelijk zou zijn.\n\n<b>Armen en benen:</b>Breng de pomp verticaal of iets schuin aan.\n\n<b>Onderrug, buik, billen:\n</b>Breng de pomp horizontaal of iets schuin aan.\n\n
+
+Breng de pomp niet aan op plaatsen met huidplooien, plaatsen waar een riem word gedragen of waar zich een tatoeage of litteken weefsel bevindt. Dit kan namelijk invloed hebben op de absorptie van insuline.\n</string>
+    <string name="Text_Prikken">Bloedsuiker kunt u het beste prikken met een speciaal vingerprikapparaat. Dit apparaat houdt u tegen een vingertop en door middel van een klein veertje schiet er een lancet in de vinger. Omdat de vingertop gevoelig kan zijn is het verstandig om aan de zijkant van uw vinger te prikken.\n\nHet is hierbij zeer belangrijk dat u uw handen met water en zeep wast voordat u uw bloedsuiker gaat prikken. Er kan namelijk nog suiker aan de huid zitten, waardoor de bloedglucosemeter een te hoge uitslag geeft.</string>
+    <string name="Text_Wisselen">Het is belangrijk om op tijd je toebehoren te wisselen, om een zo nauwkeurig mogelijk meetresultaat te ontvangen.\n\n<b>Naald:</b>\nMet een naald meet je maar 1 keer, deze wissel je dus elke keer wanneer je gaat prikken.\n\n<b>Infuusset:</b>\nHet advies voor volwassenen is om deze 1x in de 3 dagen te verwisselen. Bij kinderen geldt 1x per dag.\n\n<b>Lancet:</b>\nOok een lancet gebruik je maar 1 keer en wissel je dus elke keer wanneer je gaat prikken.</string>
+    <string name="Text_Hypo">Bij een hypo is uw bloedglucose te laag. Heeft u de volgende symptomen, dan kan het zijn dat u een hypo heeft. Controleer uw waarden en neem eventueel contact op met de huisarts.\n</string>
+    <string name="Text_Hyper">Bij een hyper is uw bloedglucose te hoog. Heeft u de volgende symptomen, dan kan het zijn dat u een hyper heeft. Controleer uw waarden en neem eventueel contact op met de huisarts.  </string>
+    <string name="Text_OverBoeren">Boeren Medical, in 1976 begonnen als ambitieus familiebedrijf door Paul en Marina Boeren, kent inmiddels een gevestigde en gerenommeerde naam binnen de markt van diabetesspecialisten.\n\nDennis en Dave Boeren, zonen van Paul en Marina Boeren, zijn actief binnen de organisatie en hebben door de jaren heen veel ervaring en kennis binnen de branche opgedaan. Dennis en Dave zijn vastbesloten het succes van Boeren Medical voort te zetten, met als doel het leven van mensen met diabetes makkelijker te maken. Boeren Medical is een professionele organisatie met ruim 80 enthousiaste medewerkers die over uitzonderlijk veel kennis op het gebied van diabetes en diabeteshulpmiddelen beschikken.\n\nWanneer u diabeteshulpmiddelen nodig heeft bent u bij Boeren Medical aan het juiste adres. Boeren Medical stelt hoge eisen aan de kwaliteit van haar producten en service. We beschikken over een breed assortiment, maar ook staan uitstekende vak- kennis, uitgebreide service, professionele dienstverlening en deskundig persoonlijk advies voorop. Hulpmiddelen die worden vergoed door uw zorgverzekeraar declareren wij rechtstreeks voor u. Hier heeft u dus geen omkijken naar.\n </string>
+    <string name="Text_OverBoeren_webshop">Boeren Medical beschikt over een uitgebreide webshop voor diabeteshulpmiddelen en ALD artikelen (algemene dagelijkse levensverrichtingen), toegankelijk voor iedereen. Wanneer uw diabeteshulpmiddelen worden vergoed, wordt dit rechtstreeks gedeclareerd bij de verzekeraar door Boeren Medical.\n\nWorden uw hulpmiddelen niet vergoed? Dan bent u ook bij ons aan het juiste adres. Wij leveren namelijk tegen de laagste prijzen van Nederland.\n\n</string>
+    <string name="Text_OverBoeren_diabetes">Boeren Medical heeft een uitgebreide informatiebrochure van maar liefst 148 pagina’s dik gemaakt, waarin alle informatie omtrent diabetes is gebundeld. De brochure is bedoeld als informatievoorzieningen voor klanten, maar ook andere geinteresseerden. U kunt het boek digitaal raadplegen via: www.boerenmedical.nl/lees-meer-over-diabetes.
+Wilt u het boek thuis ontvangen? Neem dan contact op met onze klantenservice via 0800 099 66 40.\n</string>
+    <string name="Text_OverBoeren_diabetes_service">Wij willen graag het leven van mensen met diabetes makkelijker maken. het zou voor ons heel makkelijk zijn om alleen maar de diabeteshulpmiddelen te leveren, maar dat zit niet in onze aard. Vandaar dat wij ook het diabetes service spreekuur aanbieden. in dat spreekuur helpen wij u verder een keuze te maken uit de verschillende diabeteshulpmiddelen die er zijn. We kijken wat het beste bij u past en wij zullen u, in overleg met uw behandelaar of diabetesverpleegkundige verder begeleiden met het gebruik van deze hulpmiddelen.\n\nHet Diabetes Service Spreekuur zal worden uitgevoerd door één van onze specialistische medewerkers. Tijdens het spreekuur voor- zien wij u van de nodige informatie over de diabeteshulpmiddelen die u in het dagelijkse leven gebruikt of wellicht gaat gebruiken.\n\nOnze diabetesverpleegkundigen beschikken over zeer ruime kennis op het gebied van diabeteshulpmiddelen en kunnen u dus van professionele begeleiding voorzien, onaf- hankelijk van de behandelmethode die voor u van toepassing is. Uiteraard beantwoorden wij ook eventuele andere vragen.\n\nBoeren Medical verzorgt deze Diabetes Service Spreekuren regelmatig op verschillende locaties in Nederland, bijvoorbeeld in opdracht van huisartsenpraktijken, gezondheidscentra en ziekenhuizen. in principe kan elke zorg- verlener, dus ook úw behandelaar zich aan- sluiten bij het Diabetes Service Spreekuur van Boeren Medical.\n\nUw behandelaar kan het Diabetes Service Spreekuur gemakkelijk aanvragen via Boeren Medical. Heeft u interesse? Laat dit dan weten aan uw behandelaar en vraag hem of haar contact met ons op te nemen via 0800 099 66 40.\n</string>
+    <string name="Text_feedback">Heeft u vragen of opmerkingen over Appsuline? Wij horen het graag!\n\nU kunt contact opnemen met onze klantenservice via het gratis telefoonnummer 0800 099 66 40 of mail naar info@boerenmedical.nl.\n\n</string>
+    <string name="Text_disclaimer">Appsuline mag enkel gebruikt worden voor een verbeterd zelfmanagement van uw diabetes, niet als vervanging van medische adviezen van een zorgverlener.\n\nBoeren Medical kan niet aansprakelijk gesteld worden voor eventuele verkeerde bloedglucosewaarden of problemen die ontstaan zijn tijdens het gebruik van deze applicatie.</string>
+    <string name="Text_bluetoothmeter_koppelen">Volg onderstaande stappen om uw bloedglucosemeter voor de eerste keer met uw smartphone of tablet te koppelen. U hoeft dit maar één keer te doen, hierna zal de meter automatisch verbinding maken met uw smartphone of tablet.\n\n1. Start met de bloedglucosemeter uit.\n\n2. Druk met een pen op de SET knop, op de achterkant van de bloedglucosemeter.\n\n3. Na 12 keer drukken staat er PAr.\n\n4. Druk nu op de hoofdknop op de voorkant van de meter, zodat er yes staat.\n\n5. Druk nu weer op de SET knop om de instelling op te slaan.\n\n6. Er verschijnt CLr, en de meter sluit zichzelf af. Het blauwe Bluetooth lampje begint te knipperen.\n\n7. Open de Instellingen App op uw smartphone of tablet.\n\n8. Ga naar Bluetooth.\n\n9. Zorg dat Bluetooth ingeschakeld is.\n\n10. Selecteer bij Apparaten de DIAMOND MOBILE.\n\n11. De koppeling is gelukt!\n\nVoor meer informatie kunt u de handleiding van uw bloedglucosemeter raadplegen.\n\n<b>Let op:</b> Als u een V4 bloedglucusemeter hebt volg de onderstande stappen.\n\n1. Zet de bluetooth op uw telefoon aan.\n\n2. Zet uw bloedglucosemeter aan door middel van de grote knop op de voorzijde.\n\n3.	Zet uw bloedglucosemeter meteen daarna weer uit.\n\n4. U gaat in de app naar Instellingen > Koppelen met V4 meter> En drukt op zoeken. De telefoon zoekt dan automatisch naar een apparaat met bluetooth, in dit geval dus uw meter.\n\n5. Er verschijnt een pop-up met daarop Diamond Mobile. Klik hier op toevoegen.\n\n6. In het menu Bluetooth staat uw meter automatisch weergegeven. Klik op maak verbinding en volg de instructies die de app geeft.\n\n7. Daarna is uw meter verbonden en zijn er een aantal opties mogelijk, waaronder het synchroniseren van (enkele of alle) metingen uit uw meter. Ook kunt u hier alle gegevens verwijderen van uw meter en kunt u de meter afsluiten zodat de bluetooth verbinding verbroken wordt. </string>
+    <string name="Text_app_instellen">Zodra uw smartphone of tablet is gekoppeld met de bloedglucosemeter zal er automatisch verbinding worden gemaakt als de bloedglucosemeter wordt uitgeschakeld. U kunt vanaf dan meetmomenten importeren naar uw diabetesdagboek.\n\n</string>
+    <string name="Text_geschikte_apparaten">* BM Diamond Mini\n</string>
+    <string name="text_streefwaardes_KH_min">Vul het minimaal aantal koolhydraten per dag in.</string>
+    <string name="text_streefwaardes_KH_max">Vul het maximaal aantal koolhydraten per dag in.</string>
+    <string name="text_streefwaardes_Insuline_min">Vul het minimaal aantal eenheden insuline per dag in.</string>
+    <string name="text_streefwaardes_Insuline_max">Vul het maximaal aantal eenheden insuline per dag in.</string>
+    <string name="text_streefwaardes_Bloedglucose_min">Vul het minimale bloedwaarde per keer in.</string>
+    <string name="text_streefwaardes_Bloedglucose_max">Vul het maximale bloedwaarde per keer in.</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_pdf_viewer">PdfViewer</string>
+    <string name="text_notifications">
+        Als u wilt dat de herinneringen extra opvallen, kunt u de meldingsstijl van de berichten aanpassen.\n
+        Standaard staat een notificatie in uw taakbalk ingeschakeld. U ziet de melding dan als een pictogram en indien dit voor uw telefoon van toepassing is, ook een meldingslicht in te stellen.\n\nWanneer u de notificatiestijl wilt aanpassen gaat u naar de Instellingen van Appsuline.\n\n
+        1.	Ga naar het kopje Help onder het tabblad Informatie.\n\n2.	Klik op Meldingen beheren.\n\n3. Maak hier een keuze uit Notificaties in de taakbalk of Pop-up\n\nU kunt de meldingen ook gemakkelijk volledig aan- of uitschakelen.\n\n1.Ga naar de Instellingen-app.\n\n2. Ga naar Persoonlijk maken.\n\n3. Klik op Meldingen beheren.\n\n4. Selecteer hier welke apps meldingen kunnen verzenden.\n\n
+    </string>
+    <string name="add">Toevoegen</string>
+    <string name="setting_current_ble_meter">Current Meters</string>
+    <string name="command_test_menu">Choose One Command Type</string>
+    <string name="baudrate">BaudRate</string>
+    <string name="pair_result">Pair Device Result</string>
+    <string name="get_project_code">Modelnummer</string>
+    <string name="get_serial_number">Serienummer</string>
+    <string name="get_measurement_record">Measurement Record</string>
+    <string name="get_meter_system_clock">Get Meter System Clock</string>
+    <string name="set_meter_system_clock">Set Meter System Clock</string>
+    <string name="device_name">Apparaat naam:</string>
+    <string name="device_list">Apparaat lijst:</string>
+    <string name="meter_bt_transfer_type">Meter Bluetooth Transfer Type</string>
+    <!-- <string name="bt_type_one">Type I</string>
+    <string name="bt_type_two">Type II</string> -->
+    <string name="bt_type_one">Connect</string>
+    <string name="bt_type_two">Listen</string>
+    <string name="hint">Kies uw meter uit de lijst</string>
+    <string name="connect_meter">Maak verbinding</string>
+    <string name="project_code">Model:</string>
+    <string name="meter_system_clock">Meter Tijd:</string>
+    <string name="before_meter_system_clock">Before Sync Meter Time:</string>
+    <string name="after_meter_system_clock">After Sync Meter Time:</string>
+    <string name="measurement_type">Type meeteng:</string>
+    <string name="bg_value">BG(mmmol/L):</string>
+    <string name="selectmeter_value">Selecteer om meting aan uw dagboek toe te voegen</string>
+    <string name="thermometer_value">Body Temperature(°C):</string>
+    <string name="spO2_value">spO2:</string>
+    <string name="gender_value">Gender:</string>
+    <string name="age_value">Age:</string>
+    <string name="height_value">Height:</string>
+    <string name="weight_value">Weight:</string>
+    <string name="bmi_value">BMI:</string>
+    <string name="bmr_value">BMR:</string>
+    <string name="bf_value">BF:</string>
+    <string name="sys_value">Systolic(mmHg):</string>
+    <string name="dia_value">Diastolic(mmHg):</string>
+    <string name="pul_value">Pulse(beast/min):</string>
+    <string name="ihb_value">IHB:</string>
+    <string name="measurement_date">Meet Datum:</string>
+    <string name="serial_number">Serienummer:</string>
+    <string name="storage_count">Total Records:</string>
+    <string name="device_mac_address">Device Mac Address:</string>
+    <string name="start_search_meter">Bezig met zoeken naar meters, één moment geduld alstublieft.</string>
+    <string name="connection_meter_and_get_result">Bezig met verbinden, één moment geduld alstublieft. A.U.B Zorg dat uw meter aan staat.</string>
+    <string name="bluetooth_occur_error">Er is een Bluetooth fout opgetreden. (Re)activeer uw bluetooth en  probeer nogmaals verbinding te maken.</string>
+    <string name="bluetooth_need_to_pair">Ga naar "Instellignen-->Verbindingen" > Bluetooth</string>
+    <string name="check_bt_fail">Signaalsterkte van apparaat te laag</string>
+    <string name="not_support_meter">Uw meter wordt niet ondersteud.</string>
+    <string name="not_connect_serial_port">Not connect serial port!!!!</string>
+    <string name="connect_meter_fail">Geen verbinding mogelijk, controleer of uw bluetooth meter aanstaat en probeer opnieuw!</string>
+    <string name="connect_meter_success">Connect meter success, you can choose one of the command to test meter communication!!</string>
+    <string name="meter_was_power_off">Meter was power off, click OK and go to the meter menu.</string>
+    <string name="clear_records">Gegevens zijn verwijdert.</string>
+    <string name="meter_trans_type_fail">Please choose meter transfer type!!!!</string>
+    <string name="pair_meter_first">Please Pair Device First!!</string>
+    <string name="check_meter_is_on">Zorg dat uw meter aan staat</string>
+    <string name="ok">OK</string>
+    <string name="cd_image">image</string>
+
+    <!-- setting meter -->
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+    <string name="cancel">Annuleer</string>
+    <string name="delete">Verwijderen</string>
+    <string name="tab_setting">SETTING</string>
+    <string name="saveandleave">Save and leave?</string>
+    <string name="meter">Pairing BLE Meter</string>
+    <string name="meter_search">Zoeken</string>
+    <string name="setting_meter_stop">Stop</string>
+    <string name="meter_add_meters">Add BLE Meters</string>
+    <string name="meter_available_meters">Available BLE Meters</string>
+
+    <!-- knv layout -->
+    <string name="knv_user">User</string>
+    <string name="knv_gender">Gender</string>
+    <string name="knv_age">Age</string>
+    <string name="knv_height">Height</string>
+    <string name="knv_weight">Weight</string>
+    <string name="knv_bfr">Body Fat Ratio</string>
+    <string name="knv_bm">Basal Metabolism</string>
+    <string name="knv_mc">Moisture Content</string>
+    <string name="knv_mr">Muscle Ratio</string>
+    <string name="knv_sw">Skeleton Weight</string>
+    <string name="knv_back">Back</string>
+
+
+</resources>

@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="boeren.com.boeren.app.bmedical.boeren.fragments.MeldingsstijlFragment">
+
+    <boeren.com.appsuline.app.bmedical.appsuline.font.DinProTextView
+        android:id="@+id/title_meldingsstijl"
+        android:text="@string/title_meldingsstijl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/title_color"
+        android:textSize="25sp"
+        style="@style/TextViewAppearance.Display1"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_meldingsstijl"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <boeren.com.appsuline.app.bmedical.appsuline.font.DinProTextView
+            android:id="@+id/tv_techniek"
+            android:text="@string/text_notifications"
+            android:singleLine="false"
+            style="@style/TextViewAppearance.Body1"
+
+            />
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

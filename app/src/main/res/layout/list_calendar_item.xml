@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingRight="10dp"
+    android:paddingLeft="50dp"
+    android:background="@color/theme_color"
+
+    >
+    <!-- Calendar day-->
+    <TextView
+        android:id="@+id/tv_calendar_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5sp"
+        android:paddingBottom="5sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        />
+    <!-- Calendar date -->
+    <TextView
+        android:id="@+id/tv_calendar_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5sp"
+        android:paddingBottom="5sp"
+        android:background="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/theme_color"
+        />
+    <!-- Levels :  Total calories per day, Total Insulin per day, Average Blood sugar level per day -->
+ <ProgressBar
+     android:id="@+id/pb_calendar_level"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content" />
+</LinearLayout>

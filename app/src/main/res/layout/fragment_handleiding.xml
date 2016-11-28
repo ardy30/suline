@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@color/white"
+     >
+    <boeren.com.appsuline.app.bmedical.appsuline.font.DinProTextView
+        android:id="@+id/title_handleidng"
+        android:text="@string/Handleiding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="@color/title_color"
+        style="@style/TextViewAppearance.Display1"
+        />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/title_handleidng"
+            android:gravity="center"
+
+            />
+    <LinearLayout
+        android:id="@+id/llNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/llDots"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="10sp"
+
+        >
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:gravity="center"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="10sp"
+        android:visibility="invisible"
+        android:layout_below="@+id/pager"
+        style="@style/UIButton_subcolor"
+        />
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/llDots"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+
+</RelativeLayout>

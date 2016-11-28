@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_background"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            >
+            <ImageView
+                android:id="@+id/btn_pdf_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_close"
+                android:textColor="@color/theme_color"
+                android:textStyle="bold"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                >
+
+                <ImageView
+                    android:id="@+id/btnEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_action_sendpdf"
+                    android:textColor="@color/theme_color"
+                    android:textStyle="bold"
+                    android:visibility="invisible"
+                    android:scaleType="fitEnd"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:gravity="end" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlcarbotitle"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7sp"
+            android:layout_marginBottom="2sp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5sp"
+            android:layout_centerInParent="true"
+            android:background="@color/theme_sub_color" />
+
+        <boeren.com.appsuline.app.bmedical.appsuline.font.CaeciliaTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_pdfstarttime"
+            android:textStyle="bold"
+            android:layout_below="@+id/btncancel"
+            android:background="@color/white"
+            android:textColor="@color/title_color"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:text="@string/van"
+            />
+        </RelativeLayout>
+        <Button
+            android:id="@+id/btn_pdf_startdate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            style="@style/UIButton"
+            />
+        <RelativeLayout
+            android:id="@+id/rlenddatetitle"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7sp"
+            android:layout_marginBottom="2sp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5sp"
+            android:layout_centerInParent="true"
+            android:background="@color/theme_sub_color" />
+        <boeren.com.appsuline.app.bmedical.appsuline.font.CaeciliaTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_pdfendtime"
+            android:textStyle="bold"
+            android:layout_below="@+id/btncancel"
+            android:background="@color/white"
+            android:textColor="@color/title_color"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:text="@string/totenmet"
+            />
+        </RelativeLayout>
+        <Button
+            android:id="@+id/btn_pdf_enddate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            style="@style/UIButton"
+            />
+        <RelativeLayout
+            android:id="@+id/rldaytitle"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7sp"
+            android:layout_marginBottom="2sp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5sp"
+            android:layout_centerInParent="true"
+            android:background="@color/theme_sub_color" />
+        <boeren.com.appsuline.app.bmedical.appsuline.font.CaeciliaTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_dagen"
+            android:textStyle="bold"
+            android:background="@color/white"
+            android:textColor="@color/title_color"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:text="@string/dagen"
+            />
+        </RelativeLayout>
+        <boeren.com.appsuline.app.bmedical.appsuline.utils.UITabs
+            android:id="@+id/toggle_pomp_spuit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:orientation="horizontal"
+            android:layout_marginTop="2sp"
+            >
+
+            <RadioButton
+                android:id="@+id/toggle_alldays"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/alledagen"
+                android:checked="true"
+                style="@style/UITabs" />
+
+            <RadioButton
+                android:id="@+id/toggle_onlyselecteddays"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/alleenuitelichte"
+                style="@style/UITabs" />
+
+        </boeren.com.appsuline.app.bmedical.appsuline.utils.UITabs>
+        <Button
+            android:id="@+id/btn_pdf_preview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:text="@string/bekijkpdf"
+            style="@style/UIButton_subcolor"
+            />
+
+   </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

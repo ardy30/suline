@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="TextViewAppearance" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="typeface">dinproRegular</item>
+        <item name="android:paddingTop">8sp</item>
+        <item name="android:paddingBottom">8sp</item>
+        <item name="android:paddingLeft">16sp</item>
+        <item name="android:paddingRight">16sp</item>
+
+        <!-- Supports API Level 17+ -->
+        <!-- <item name="android:paddingStart">26dp</item> -->
+        <!-- Supports API Level 17+ -->
+        <!-- <item name="android:paddingEnd">26dp</item> -->
+    </style>
+
+    <!-- Typography style 1 -->
+
+    <style name="TextViewAppearance.Display1" parent="@style/TextViewAppearance">
+        <item name="typeface">dinproBold</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+
+    <style name="TextViewAppearance.Headline1" parent="@style/TextViewAppearance">
+        <item name="typeface">dinproRegular</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextViewAppearance.Title1" parent="@style/TextViewAppearance">
+        <item name="typeface">dinproMedium</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextViewAppearance.Body1" parent="@style/TextViewAppearance">
+        <item name="typeface">dinproRegular</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextViewAppearance.Caption1" parent="@style/TextViewAppearance">
+        <item name="typeface">dinproRegular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Typography style 2 -->
+
+    <style name="TextViewAppearance.Display2" parent="@style/TextViewAppearance">
+        <item name="typeface">dinproLight</item>
+        <item name="android:textSize">45sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextViewAppearance.Headline2" parent="@style/TextViewAppearance">
+        <item name="typeface">dinproBold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextViewAppearance.Title2" parent="@style/TextViewAppearance">
+        <item name="typeface">dinproLight</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextViewAppearance.Body2" parent="@style/TextViewAppearance">
+        <item name="typeface">dinproLight</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextViewAppearance.Caption2" parent="@style/TextViewAppearance">
+        <item name="typeface">dinproLight</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Typography style 3 -->
+
+    <style name="TextViewAppearance.Display3" parent="@style/TextViewAppearance">
+        <item name="typeface">dinproBlack</item>
+        <item name="android:textSize">45sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextViewAppearance.Headline3" parent="@style/TextViewAppearance">
+        <item name="typeface">dinproBlack</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextViewAppearance.Title3" parent="@style/TextViewAppearance">
+        <item name="typeface">dinproBlack</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextViewAppearance.Body3" parent="@style/TextViewAppearance">
+        <item name="typeface">dinproMedium</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextViewAppearance.Caption3" parent="@style/TextViewAppearance">
+        <item name="typeface">dinproMedium</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Other styles -->
+    <style name="TextViewAppearance.Fontello.SearchBar" parent="@style/TextViewAppearance">
+        <item name="typeface">dinproMedium</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

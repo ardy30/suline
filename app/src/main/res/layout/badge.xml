@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relCart"
+    style="@android:style/Widget.ActionButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:descendantFocusability="blocksDescendants" >
+
+    <!-- Menu Item Image -->
+
+    <ImageView
+        android:id="@+id/img_view"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="@drawable/ic_action"
+        android:clickable="true" />
+
+    <!-- Badge Count -->
+
+
+
+</RelativeLayout>

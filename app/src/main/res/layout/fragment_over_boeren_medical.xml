@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="boeren.com.boeren.app.bmedical.boeren.fragments.OverBoerenMedicalFragment">
+
+    <boeren.com.appsuline.app.bmedical.appsuline.font.DinProTextView
+        android:id="@+id/title_overboeren"
+        android:text="@string/title_overboerenmedical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/title_color"
+        style="@style/TextViewAppearance.Display1"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_overboeren"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <boeren.com.appsuline.app.bmedical.appsuline.font.DinProTextView
+            android:id="@+id/tv_overboeren"
+            android:text="@string/Text_OverBoeren"
+            style="@style/TextViewAppearance.Body1"
+
+            />
+
+        <boeren.com.appsuline.app.bmedical.appsuline.font.DinProTextView
+            android:text="@string/title_overboerenmedical_webshop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/theme_color"
+            android:textStyle="bold"
+            style="@style/TextViewAppearance.Headline2"
+            />
+        <boeren.com.appsuline.app.bmedical.appsuline.font.DinProTextView
+            android:id="@+id/tv_overwebshop"
+            android:text="@string/Text_OverBoeren_webshop"
+            style="@style/TextViewAppearance.Body1"
+
+            />
+        <boeren.com.appsuline.app.bmedical.appsuline.font.DinProTextView
+            android:text="@string/title_overboerenmedical_diabetes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/theme_color"
+            android:textStyle="bold"
+
+            style="@style/TextViewAppearance.Headline2"
+            />
+        <boeren.com.appsuline.app.bmedical.appsuline.font.DinProTextView
+            android:id="@+id/tv_overwebdiabetes"
+            android:text="@string/Text_OverBoeren_diabetes"
+            android:textColorLink="@color/theme_color"
+            style="@style/TextViewAppearance.Body1"
+
+            />
+        <boeren.com.appsuline.app.bmedical.appsuline.font.DinProTextView
+            android:text="@string/title_overboerenmedical_diabetes_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/theme_color"
+            android:textStyle="bold"
+            style="@style/TextViewAppearance.Headline2"
+            />
+        <boeren.com.appsuline.app.bmedical.appsuline.font.DinProTextView
+            android:id="@+id/tv_overwebdiabetes_service"
+            android:text="@string/Text_OverBoeren_diabetes_service"
+            android:textColorLink="@color/theme_color"
+            style="@style/TextViewAppearance.Body1"
+
+            />
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

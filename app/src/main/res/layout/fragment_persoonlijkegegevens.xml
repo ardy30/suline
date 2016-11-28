@@ -1,0 +1,381 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="boeren.com.boeren.app.bmedical.boeren.fragments.PersonalInfoFragment"
+    android:orientation="vertical">
+
+
+    <boeren.com.appsuline.app.bmedical.appsuline.font.DinProTextView
+    android:id="@+id/tv_titlepersoonlijkgegevens"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="25sp"
+    android:layout_marginLeft="5sp"
+    android:layout_marginStart="5sp"
+    android:gravity="center"
+    android:text="@string/Persoonlijkegegevens"
+     style="@style/TextViewAppearance.Display1"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_titlepersoonlijkgegevens"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:weightSum="1">
+            <RelativeLayout
+                android:id="@+id/rlkhtitle"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7sp"
+                android:layout_marginBottom="2sp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5sp"
+                android:layout_centerInParent="true"
+                android:background="@color/theme_sub_color" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/title_color"
+        android:background="@color/white"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:text="@string/Title_naam"
+         />
+            </RelativeLayout>
+
+     <EditText
+         android:id="@+id/etUserName"
+         android:padding="5dp"
+         android:layout_marginLeft="@dimen/activity_horizontal_margin"
+         android:layout_marginStart="@dimen/activity_horizontal_margin"
+         android:layout_marginRight="@dimen/activity_horizontal_margin"
+         android:background="@drawable/tab_default"
+         android:textColor="@color/theme_color"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+        android:inputType="text"
+         >
+    </EditText>
+
+            <RelativeLayout
+                android:id="@+id/rlprofiletitle"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7sp"
+                android:layout_marginBottom="2sp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5sp"
+                android:layout_centerInParent="true"
+                android:background="@color/theme_sub_color"
+                android:visibility="gone" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@color/title_color"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:text="@string/profilepicture"
+        android:visibility="gone" />
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:orientation="horizontal"
+                >
+                <ImageButton
+                    android:id="@+id/imgBtnProfilePic"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginStart="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="false"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_nopic"
+                    style="@style/UIButtonInverse"
+                    android:visibility="gone" />
+                <Button
+                    android:id="@+id/btnProfilePic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:text="@string/changephoto"
+                    style="@style/UIButton"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+            <RelativeLayout
+                android:id="@+id/rlgendertitle"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7sp"
+                android:layout_marginBottom="2sp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5sp"
+                android:layout_centerInParent="true"
+                android:background="@color/theme_sub_color" />
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@color/title_color"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:text="@string/Title_geslacht"
+        />
+            </RelativeLayout>
+    <boeren.com.appsuline.app.bmedical.appsuline.utils.UITabs
+        android:id="@+id/toggle_gender"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:orientation="horizontal"
+
+        >
+
+        <RadioButton
+            android:id="@+id/rbtMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textinput_man"
+            style="@style/UITabs" />
+
+        <RadioButton
+            android:id="@+id/rbtFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textinput_vrouw"
+            style="@style/UITabs" />
+
+    </boeren.com.appsuline.app.bmedical.appsuline.utils.UITabs>
+            <RelativeLayout
+                android:id="@+id/rlagetitle"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7sp"
+                android:layout_marginBottom="2sp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                >
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5sp"
+                android:layout_centerInParent="true"
+                android:background="@color/theme_sub_color" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColor="@color/title_color"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="@string/Title_dob"
+        />
+            </RelativeLayout>
+    <TextView
+        android:id="@+id/dateOfBirth"
+        android:padding="5dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:background="@drawable/tab_default"
+        android:textColor="@color/theme_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10" >
+    </TextView>
+            <RelativeLayout
+                android:id="@+id/rlnursenametitle"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7sp"
+                android:layout_marginBottom="2sp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5sp"
+                android:layout_centerInParent="true"
+                android:background="@color/theme_sub_color" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColor="@color/title_color"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:text="@string/title_naamverpleegkundige"
+        />
+            </RelativeLayout>
+    <EditText
+        android:id="@+id/etNurseName"
+        android:padding="5dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:background="@drawable/tab_default"
+        android:textColor="@color/theme_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+    </EditText>
+            <RelativeLayout
+                android:id="@+id/rlnurseemailtitle"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7sp"
+                android:layout_marginBottom="2sp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5sp"
+                android:layout_centerInParent="true"
+                android:background="@color/theme_sub_color" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColor="@color/title_color"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:text="@string/title_emailverpleegkundige"
+        />
+            </RelativeLayout>
+    <EditText
+        android:id="@+id/etNurseEmail"
+        android:padding="5dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:background="@drawable/tab_default"
+        android:textColor="@color/theme_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10" >
+    </EditText>
+            <RelativeLayout
+                android:id="@+id/rltypetitle"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7sp"
+                android:layout_marginBottom="2sp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5sp"
+                android:layout_centerInParent="true"
+                android:background="@color/theme_sub_color" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColor="@color/title_color"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="@string/title_pomp_spuit"
+        />
+            </RelativeLayout>
+    <boeren.com.appsuline.app.bmedical.appsuline.utils.UITabs
+        android:id="@+id/toggle_pomp_spuit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbtIsNeedle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_spuit"
+            style="@style/UITabs" />
+
+        <RadioButton
+            android:id="@+id/rbtIsPomp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_pomp"
+            style="@style/UITabs" />
+
+    </boeren.com.appsuline.app.bmedical.appsuline.utils.UITabs>
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:text="@string/filldetails"
+                style="@style/UIButton_subcolor"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

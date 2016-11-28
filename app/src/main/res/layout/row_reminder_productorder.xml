@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/llReminderinfo"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7sp"
+        android:layout_marginBottom="7dp"
+        android:gravity="center_vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5sp"
+            android:layout_centerInParent="true"
+            android:background="@color/theme_sub_color" />
+
+        <boeren.com.appsuline.app.bmedical.appsuline.font.CaeciliaTextView
+            android:id="@+id/tv_type_reminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type Reminder"
+            android:background="@color/white"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColor="@color/title_color"
+            android:layout_marginLeft="20dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/llDateInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/theme_color"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/row_padding_normal"
+        android:paddingRight="@dimen/row_padding_normal"
+        android:paddingTop="@dimen/textsize_xsmall"
+        android:paddingBottom="@dimen/textsize_xsmall">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/tvProductTitle"
+            android:textColor="@color/white"
+            android:paddingRight="2sp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/entryAmountTv"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="boeren.com.boeren.app.bmedical.boeren.fragments.InsulinePompFragment">
+
+    <boeren.com.appsuline.app.bmedical.appsuline.font.DinProTextView
+        android:id="@+id/title_insulinepomp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="@color/title_color"
+        android:text="@string/Title_Insulinepomp"
+        style="@style/TextViewAppearance.Display1"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_insulinepomp"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <boeren.com.appsuline.app.bmedical.appsuline.font.DinProTextView
+        android:id="@+id/textview"
+        android:text="@string/Text_Insulinepomp"
+        style="@style/TextViewAppearance.Body1"
+        />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imview_insulinepomp"
+            android:src="@drawable/injectieplaatsen"
+            android:background="@drawable/imageview_border"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            />
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

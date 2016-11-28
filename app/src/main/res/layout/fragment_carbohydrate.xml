@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <boeren.com.appsuline.app.bmedical.appsuline.font.DinProTextView
+        android:id="@+id/title_carbohydrates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5sp"
+        android:layout_marginStart="5sp"
+        android:gravity="center"
+        android:textColor="@color/title_color"
+        style="@style/TextViewAppearance.Display1"
+        android:text="@string/title_carbohydrates" />
+    <!-- Editext for Search -->
+    <EditText android:id="@+id/inputSearch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/theme_color"
+        android:padding="5dp"
+        android:background="@drawable/tab_default"
+        android:layout_marginTop="4sp"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="5sp"
+        android:hint="Zoek.."
+        android:drawableLeft="@android:drawable/ic_menu_search"
+        android:inputType="text"/>
+
+    <!-- List View of Food Carbohydrates-->
+    <ListView
+        android:id="@+id/lv_carbotable"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:listSelector="@android:color/transparent"
+        />
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- Single ListItem -->
+
+    <!-- Product Name -->
+    <TextView android:id="@+id/tv_product_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5sp"
+        android:textColor="@color/title_color"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="Name"/>
+
+    <!-- Product Quantity -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+     <TextView
+      android:id="@+id/tv_productquantity"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="@dimen/activity_horizontal_margin"
+      android:textAppearance="?android:attr/textAppearanceSmall"
+      android:textColor="@color/theme_color"
+      android:text="testing"
+      />
+    <TextView
+        android:id="@+id/tv_productcarbohydrates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:gravity="right|end"
+        android:text="20 kh"
+        android:textColor="@color/theme_color"
+        />
+    </RelativeLayout>
+</LinearLayout>

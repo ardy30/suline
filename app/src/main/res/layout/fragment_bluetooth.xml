@@ -1,0 +1,347 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="boeren.com.boeren.app.bmedical.boeren.fragments.BluetoothFragment">
+<LinearLayout
+    android:id="@+id/lv_top"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/activity_horizontal_margin"
+    >
+    <TextView
+        android:id="@+id/tv_bluetooth_notice"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="@string/nobluetoothfound"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textColor="@color/theme_color"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:padding="5dp"
+        android:background="@drawable/drawable_dashed" />
+    <Button
+        android:id="@+id/btnmeterconnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connect to meter"
+        android:layout_marginTop="5sp"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:visibility="invisible"
+        style="@style/UIButton"
+         />
+</LinearLayout>
+
+    <ScrollView
+        android:id="@+id/sv_bluetooth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lv_top"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+        <RelativeLayout
+            android:id="@+id/rlhelptitle"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7sp"
+            android:layout_marginBottom="7dp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5sp"
+            android:layout_centerInParent="true"
+            android:background="@color/theme_sub_color" />
+
+    <boeren.com.appsuline.app.bmedical.appsuline.font.CaeciliaTextView
+        android:text="@string/title_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/title_color"
+        android:background="@color/white"
+        android:textStyle="bold"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        />
+</RelativeLayout>
+        <Button
+            android:id="@+id/btnbluetoothhelp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textbluetooth_help"
+            android:layout_marginTop="5sp"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            style="@style/UIButton" />
+
+        <RelativeLayout
+            android:id="@+id/rlbuytitle"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7sp"
+            android:layout_marginBottom="7dp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5sp"
+            android:layout_centerInParent="true"
+            android:background="@color/theme_sub_color" />
+
+        <boeren.com.appsuline.app.bmedical.appsuline.font.CaeciliaTextView
+            android:text="@string/title_kopen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/title_color"
+            android:background="@color/white"
+            android:textStyle="bold"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            />
+      </RelativeLayout>
+        <Button
+            android:id="@+id/btnbluetoothkopen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textbluetooth_kopen"
+            android:layout_marginTop="5sp"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            style="@style/UIButton" />
+
+    </LinearLayout>
+    </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/sv_meterinfo"
+            android:layout_below="@+id/sv_bluetooth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="invisible"
+            >
+
+            <TextView
+                android:text="@string/metingen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/title_color"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+
+                />
+
+           <ListView
+               android:id="@+id/lv_meterreading"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+           </ListView>
+
+            <TextView
+                android:id="@+id/tv_bloodsugarmeter"
+                android:text="@string/bloodsugarmeter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/title_color"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+
+                />
+
+            <ListView
+                android:id="@+id/lv_metersystemsinfo"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+
+
+                >
+            </ListView>
+        </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        >
+
+        <TextView
+            android:id="@+id/tvBaudRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/baudrate"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/spBaudRate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/gray" >
+        </View>
+
+        <Button
+            android:id="@+id/btnPL2303ConnectMeter"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/connect_meter" />
+
+    </LinearLayout>
+
+    <!-- paired device list -->
+
+    <LinearLayout
+        android:id="@+id/ll_body"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="invisible"
+
+        >
+
+        <RelativeLayout
+            android:id="@+id/rldevicetitle"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5sp"
+                android:layout_centerInParent="true"
+                android:background="@color/theme_sub_color" />
+
+            <boeren.com.appsuline.app.bmedical.appsuline.font.CaeciliaTextView
+                android:text="@string/hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/title_color"
+                android:background="@color/white"
+                android:textStyle="bold"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                />
+        </RelativeLayout>
+
+        <Spinner
+            android:id="@+id/pairDeviceList"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            />
+        <!-- choose type one or type two -->
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/theme_sub_color"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            >
+        </View>
+        <RadioGroup
+            android:id="@+id/meterBtTransferTypeRadioGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            >
+
+            <RadioButton
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/meterBtType1RadioButton"
+                android:text="@string/bt_type_one"
+                android:checked="true"
+                android:visibility="invisible"
+                />
+
+            <RadioButton
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/meterBtType2RadioButton"
+                android:text="@string/bt_type_two"
+                android:visibility="invisible"
+                />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnConnectMeter"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:text="@string/connect_meter"
+            style="@style/UIButton"
+            />
+
+        <Button
+            android:id="@+id/btnPair"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/meter"
+            android:visibility="invisible"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/llReminderinfo"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7sp"
+        android:layout_marginBottom="7dp"
+        android:gravity="center_vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5sp"
+            android:layout_centerInParent="true"
+            android:background="@color/theme_sub_color" />
+
+        <boeren.com.appsuline.app.bmedical.appsuline.font.CaeciliaTextView
+            android:id="@+id/tv_type_reminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type Reminder"
+            android:background="@color/white"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColor="@color/title_color"
+            android:layout_marginLeft="20dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llDateInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/theme_color"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/row_padding_normal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/tvAtTime"
+            android:textColor="@color/white"
+            android:paddingRight="2sp"
+
+            />
+
+        <TextView
+            android:id="@+id/tvMonday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/row_view_margin_normal"
+            android:background="@drawable/dialog_background"
+            android:padding="@dimen/row_view_margin_normal"
+            android:gravity="center"
+            android:minEms="2"
+            android:textColor="@color/theme_color" />
+
+        <TextView
+            android:id="@+id/tvTuesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/row_view_margin_normal"
+            android:background="@drawable/dialog_background"
+            android:padding="@dimen/row_view_margin_normal"
+            android:gravity="center"
+            android:minEms="2"
+            android:textColor="@color/theme_color" />
+
+        <TextView
+            android:id="@+id/tvWednesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/row_view_margin_normal"
+            android:background="@drawable/dialog_background"
+            android:padding="@dimen/row_view_margin_normal"
+            android:gravity="center"
+            android:minEms="2"
+            android:textColor="@color/theme_color" />
+
+        <TextView
+            android:id="@+id/tvThursday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/row_view_margin_normal"
+            android:background="@drawable/dialog_background"
+            android:padding="@dimen/row_view_margin_normal"
+            android:gravity="center"
+            android:minEms="2"
+            android:textColor="@color/theme_color" />
+
+        <TextView
+            android:id="@+id/tvFriday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/row_view_margin_normal"
+            android:background="@drawable/dialog_background"
+            android:padding="@dimen/row_view_margin_normal"
+            android:gravity="center"
+            android:minEms="2"
+            android:textColor="@color/theme_color" />
+
+        <TextView
+            android:id="@+id/tvSaturday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/row_view_margin_normal"
+            android:background="@drawable/dialog_background"
+            android:padding="@dimen/row_view_margin_normal"
+            android:gravity="center"
+            android:minEms="2"
+            android:textColor="@color/theme_color" />
+
+        <TextView
+            android:id="@+id/tvSunday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/row_view_margin_normal"
+            android:background="@drawable/dialog_background"
+            android:padding="@dimen/row_view_margin_normal"
+            android:gravity="center"
+            android:minEms="2"
+            android:textColor="@color/theme_color" />
+
+    </LinearLayout>
+
+</LinearLayout>
